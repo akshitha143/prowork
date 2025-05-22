@@ -7,7 +7,7 @@ const EmailForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:8000/save-email", {
+    fetch("https://prowork-lv8v.onrender.com/save-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

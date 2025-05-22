@@ -15,7 +15,7 @@ const EventList = () => {
   useEffect(() => {
     setLoading(true);
     console.log(loading);
-    fetch("http://localhost:8000/events")
+    fetch("https://prowork-lv8v.onrender.com/events")
       .then((response) => response.json())
       .then((data) => {
         setAllEvents(data);
